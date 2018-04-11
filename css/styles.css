@@ -1,0 +1,59 @@
+body{
+
+    background-size: cover;
+
+}
+
+.main-header{
+    height: 100vh; 
+    background-color: rgba(d, d, d, 0.3);
+    background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30);
+
+}
+
+.main-nav {
+display: flex;
+    justify-content:flex-end;
+    align-items:start;
+    color:rgba(d, d, d, 0.3);
+}
+
+.section1{
+background:rgb(219, 160, 160);
+height: 100vh;}
+
+.section2{
+background:rgb(235, 202, 202);
+height: 100vh;}
+
+.section3{
+background: rgb(150, 78, 78);
+height: 100vh;
+
+}
+
+
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.custom-button{
+  background-color: transparent;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: 2.5px gainsboro solid;
+}
+
+.custom-button:hover{
+
+    color: rgb(250, 247, 246);
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    background: linear-gradient(#cab094, #ac7f7f)
+}
