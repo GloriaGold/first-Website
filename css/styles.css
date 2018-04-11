@@ -1,59 +1,72 @@
 body{
+ background-size: cover;
+}
 
-    background-size: cover;
+.header-main{
+    height: 10vh; 
+    background-color: rgba(235 , 205, 205, 0.3);
+    /* background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30); */
 
 }
 
-.main-header{
-    height: 100vh; 
-    background-color: rgba(d, d, d, 0.3);
-    background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30);
-
-}
-
-.main-nav {
-display: flex;
+.nav-main {
+    display: flex;
     justify-content:flex-end;
     align-items:start;
     color:rgba(d, d, d, 0.3);
 }
 
 .section1{
-background:rgb(219, 160, 160);
-height: 100vh;}
+    background:rgb(219, 160, 160);
+    height: 80vh;
+}
 
 .section2{
-background:rgb(235, 202, 202);
-height: 100vh;}
+    background:rgb(235, 202, 202);
+    height: 100vh;}
 
 .section3{
-background: rgb(150, 78, 78);
-height: 100vh;
-
+    background: rgb(150, 78, 78);
+    height: 100vh;
 }
 
+.name-title{
+    height: 80vh;
+    background-image: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30);
+}
 
-.headline{
+.flex{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-direction: column;
 }
 
 
 
-.custom-button{
-  background-color: transparent;
-  color: white;
-  padding: 7px 12px;
-  border-radius: 5px;
-  border: 2.5px gainsboro solid;
+.main-pic{
+    object-fit: cover;
+    width: 800px;
+    height: 670px;
 }
 
-.custom-button:hover{
+.nav-button{
+    background-color: transparent;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    /* border: 2.5px gainsboro solid;*/
+}
 
+.nav-button:hover{
     color: rgb(250, 247, 246);
     text-decoration: none;
     padding: 7px 12px;
     border-radius: 5px;
-    background: linear-gradient(#cab094, #ac7f7f)
+    background: linear-gradient(#cab094, #ac7f7f)    
 }
+
+
+
+
+
