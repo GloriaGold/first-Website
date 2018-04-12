@@ -4,7 +4,7 @@ body{
 
 .header-main{
     height: 10vh; 
-    background-color: rgba(235 , 205, 205, 0.3);
+    background-color: rgba(206 ,167, 167, 0.9);
     /* background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30); */
 
 }
@@ -17,7 +17,7 @@ body{
 }
 
 .section1{
-    background:rgb(219, 160, 160);
+    background:rgb(207, 158, 158);
     height: 80vh;
 }
 
@@ -26,28 +26,34 @@ body{
     height: 100vh;}
 
 .section3{
-    background: rgb(150, 78, 78);
-    height: 100vh;
+    background: rgb(212, 170, 170);
+    height: 30vh;
 }
 
 .name-title{
     height: 80vh;
-    background-image: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30);
-}
-
-.flex{
+    background-image: url(../Bilder/rose-gold-marble209211-mugs.jpg);
+    filter:grayscale(30%);
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
 }
 
+.flex{
+   text-align: center;
+   color:rgba(37, 29, 29, 0.9);  
+   font-size: 32pt;
+   font-weight:250;
+
+}
+
 
 
 .main-pic{
-    object-fit: cover;
+    object-fit: scale-down;
     width: 800px;
-    height: 670px;
+    height: 660px;
 }
 
 .nav-button{
