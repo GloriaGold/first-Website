@@ -72,6 +72,12 @@ body{
     background: linear-gradient(#cab094, #ac7f7f)    
 }
 
+.mediabutton{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
 
 
 
