@@ -1,59 +1,98 @@
 body{
-
-    background-size: cover;
-
+ background-size: cover;
 }
 
-.main-header{
-    height: 100vh; 
-    background-color: rgba(d, d, d, 0.3);
-    background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30);
-
+.header-main{
+    height: 10vh; 
+    background-color: rgba(206 ,167, 167, 0.9);
+    /* background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30); */
+ justify-content: center;
 }
 
-.main-nav {
-display: flex;
-    justify-content:flex-end;
-    align-items:start;
+.nav-main {
+    display: flex;
+    justify-content: start;
+    align-items:center;
     color:rgba(d, d, d, 0.3);
 }
 
 .section1{
-background:rgb(219, 160, 160);
-height: 100vh;}
+    background:rgb(207, 158, 158);
+    padding: 3.7em 0;
+}
 
 .section2{
-background:rgb(235, 202, 202);
-height: 100vh;}
+    background:rgb(235, 202, 202);
+    height: 100vh;}
 
 .section3{
-background: rgb(150, 78, 78);
-height: 100vh;
-
+    background: rgb(212, 170, 170);
+    height: 30vh;
 }
 
-
-.headline{
+.name-title{
+    height: 94vh;
+    background-image: url(../Bilder/rose-gold-marble209211-mugs.jpg);
+    filter:grayscale(30%);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-direction: column;
+}
+
+.flex{
+   text-align: center;
+   color:rgba(162, 139, 128, 0.9);  
+   font-size: 39pt;
+   font-weight:250;
+ background:white;
+ padding: 0.7em;
+
+}
+
+.lebenslauf{
+
+    display: flex;
+justify-content: start;
+
+}
+
+li {
+   list-style-type: none;
+   margin: 20px 0 0 10px;
 }
 
 
 
-.custom-button{
-  background-color: transparent;
-  color: white;
-  padding: 7px 12px;
-  border-radius: 5px;
-  border: 2.5px gainsboro solid;
+.main-pic{
+    object-fit: scale-down;
+    width: 800px;
+    height: 660px;
 }
 
-.custom-button:hover{
+.nav-button{
+    background-color: transparent;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    /* border: 2.5px gainsboro solid;*/
+}
 
+.nav-button:hover{
     color: rgb(250, 247, 246);
     text-decoration: none;
     padding: 7px 12px;
     border-radius: 5px;
-    background: linear-gradient(#cab094, #ac7f7f)
+    background: linear-gradient(#cab094, #ac7f7f)    
 }
+
+.mediabutton{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+
+
+
