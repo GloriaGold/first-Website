@@ -4,7 +4,7 @@ body{
 
 .header-main{
     height: 10vh; 
-    background-color: rgba(206 ,167, 167, 0.9);
+    background-color: rgba(228 ,193, 190, 0.9);
     /* background: url(http://voss-photography.com/wp-content/uploads/2013/07/schwarz-weiss-fotografie-new-york-skyline-nacht.jpg?7f1c30); */
  justify-content: center;
 }
@@ -17,17 +17,16 @@ body{
 }
 
 .section1{
-    background:rgb(207, 158, 158);
+    background:rgb(228, 193, 190, 1);
     padding: 3.7em 0;
 }
 
 .section2{
-    background:rgb(235, 202, 202);
+    background:rgb(241, 214, 212, 1);
     height: 100vh;}
-
-.section3{
+.footer{
     background: rgb(212, 170, 170);
-    height: 30vh;
+    height: 170px;
 }
 
 .name-title{
@@ -66,7 +65,7 @@ li {
 
 .main-pic{
     object-fit: scale-down;
-    width: 800px;
+    width: 600px;
     height: 660px;
 }
 
@@ -94,5 +93,40 @@ li {
 }
 
 
+
+.greyfilter{
+
+    filter: grayscale( 70%);
+}
+
+.greyfilter:hover{
+filter: contrast(110%);
+
+}
+
+.box{
+
+
+    background: rgb(241, 214, 212);
+    width:542px;
+    height:663px;
+
+}
+
+.section-box{
+    background: rgb(241, 214, 212);
+    width:495px;
+    height:663px;
+    color: white;
+    padding-top: 3em;
+    padding-left: 4em;
+    padding-right: 2em;
+
+}
+
+.footer-text{
+
+    color: white;
+}
 
 
