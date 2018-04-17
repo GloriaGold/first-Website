@@ -31,7 +31,7 @@ body{
 
 .name-title{
     height: 94vh;
-    background-image: url(../Bilder/rose-gold-marble209211-mugs.jpg);
+    background-image: url(images/rose-gold-marble209211-mugs.jpg);
     filter:grayscale(30%);
     display: flex;
     justify-content:center;
