@@ -1,0 +1,97 @@
+body {
+  background-size: cover; }
+
+.header-main {
+  height: 10vh;
+  background-color: rgba(228, 193, 190, 0.9);
+  justify-content: center; }
+
+.nav-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgba(200, 200, 200, 0.3); }
+
+.section1 {
+  background: #e4c1be;
+  padding: 3.7em 0; }
+
+.section2 {
+  background: #f1d6d4;
+  height: 100vh; }
+
+.footer {
+  background: #d4aaaa;
+  height: 70px; }
+
+.name-title {
+  height: 94vh;
+  background-image: url(../images/rose-gold-marble209211-mugs.jpg);
+  filter: grayscale(30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.flex {
+  text-align: center;
+  color: rgba(162, 139, 128, 0.9);
+  font-size: 39pt;
+  font-weight: 250;
+  background: white;
+  padding: 0.7em; }
+
+.lebenslauf {
+  display: flex;
+  justify-content: start; }
+
+li {
+  list-style-type: none;
+  margin: 20px 0 0 10px; }
+
+.main-pic {
+  object-fit: scale-down;
+  width: 600px;
+  height: 660px; }
+
+.nav-button {
+  background-color: transparent;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 5px;
+  /* border: 2.5px gainsboro solid;*/ }
+
+.nav-button:hover {
+  color: #faf7f6;
+  text-decoration: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  background: linear-gradient(#cab094, #ac7f7f); }
+
+.mediabutton {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.greyfilter {
+  filter: grayscale(70%); }
+
+.greyfilter:hover {
+  filter: contrast(110%); }
+
+.box {
+  background: #f1d6d4;
+  width: 542px;
+  height: 663px; }
+
+.section-box {
+  background: #f1d6d4;
+  width: 495px;
+  height: 663px;
+  color: white;
+  padding-top: 3em;
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.footer-text {
+  color: white; }
